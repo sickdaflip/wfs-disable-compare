@@ -1,0 +1,28 @@
+{
+  "name": "sickdaflip/wfs-disable-compare",
+  "type": "magento-module",
+  "license": "MIT",
+  "description": "Diable Magento 1.9.3. Compare",
+  "authors": [
+    {
+      "name": "SickDaFlip",
+      "email": "philippbreitsprecher@gmail.com"
+    }
+  ],
+  "extra": {
+    "map": [
+      [
+        "code",
+        "app/code/community/Wfs/DisableCompare"
+      ],
+      [
+        "frontend/layout/*",
+        "app/design/frontend/base/default/layout/wfs/"
+      ],
+      [
+        "module.xml",
+        "app/etc/modules/Wfs_DisableCompare.xml"
+      ]
+    ]
+  }
+}
